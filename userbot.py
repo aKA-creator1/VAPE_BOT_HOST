@@ -10,7 +10,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiohttp import web
 
 # ================= НАСТРОЙКИ =================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "ваш_токен_бота_сюда")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8743245083:AAF07yRgZq7cnx8V6lGgYZVTdGOUPONdYE0")
 WEB_APP_URL = os.getenv("WEB_APP_URL", "https://ваш-домен.bothost.app")  # Замените на ваш URL с BotHost
 WEBHOOK_PATH = "/webhook"
 ADMIN_IDS = [int(x.strip()) for x in os.getenv("ADMINS", "6665950252,5973938890").split(",")]
