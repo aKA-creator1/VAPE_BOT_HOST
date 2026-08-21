@@ -10,7 +10,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiohttp import web
 
 # ================= НАСТРОЙКИ =================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8608991330:AAEw2Pj89RXeryyesGjY26In8qi_OF9rwWM")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8743245083:AAF07yRgZq7cnx8V6lGgYZVTdGOUPONdYE0")
 WEB_APP_URL = os.getenv("WEB_APP_URL", "https://landline-fading-attentive.ngrok-free.dev")
 WEBHOOK_PATH = "/webhook"
 ADMIN_IDS = [int(x.strip()) for x in os.getenv("ADMINS", "6665950252,5973938890").split(",")]
